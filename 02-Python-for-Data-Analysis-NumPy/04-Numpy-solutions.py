@@ -95,7 +95,7 @@ np.random.randn(25)
 # In[19]:
 
 
-np.linspace(0.01, 1, 100).reshape(10,10)
+np.arange(0, 1.01, .01)
 
 
 # #### Create an array of 20 linearly spaced points between 0 and 1:
@@ -117,10 +117,11 @@ mat = np.arange(1,26).reshape(5,5)
 mat
 
 
-# In[38]:
+# In[54]:
 
 
 mat[2:,1:]
+
 
 # In[40]:
 
@@ -128,10 +129,10 @@ mat[2:,1:]
 
 
 
-# In[42]:
+# In[55]:
 
 
-arr[1, 3]
+mat[3,4]
 
 
 # In[41]:
@@ -140,10 +141,10 @@ arr[1, 3]
 
 
 
-# In[43]:
+# In[60]:
 
 
-np.array(([[2],[7],[12]]))
+mat[0:3, 1:2]
 
 
 # In[42]:
@@ -152,10 +153,10 @@ np.array(([[2],[7],[12]]))
 
 
 
-# In[44]:
+# In[59]:
 
 
-np.arange(21, 26)
+mat[4]
 
 
 # In[46]:
@@ -164,10 +165,10 @@ np.arange(21, 26)
 
 
 
-# In[50]:
+# In[61]:
 
 
-np.arange(16, 26).reshape(2,5)
+mat[3:5]
 
 
 # In[49]:
